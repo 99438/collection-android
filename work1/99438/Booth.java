@@ -10,6 +10,7 @@ public class Booth{
         this.total = total;
         this.isClosed = isClosed;
     }
+
     public long getId() {
         return id;
     }
