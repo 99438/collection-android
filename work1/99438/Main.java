@@ -12,8 +12,8 @@ public class Main {
         booths[1].restock(10);
         System.out.println(booths[1].toString());
         booths[1].restock(300);
-        booths[1].setClosed(false);
         booths[0].setClosed(true);
+        booths[1].setClosed(false);
         Booth.closeBooths(booths);
     }
 }
